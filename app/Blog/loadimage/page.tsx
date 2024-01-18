@@ -8,7 +8,7 @@ import Footer from '@/components/commons/Footer'
 
 
 
-const page = () => {
+const Page = () => {
     const [isLoading, setLoading] = useState(true);
 
 
@@ -68,4 +68,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

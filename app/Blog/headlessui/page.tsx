@@ -18,7 +18,7 @@ import {
   } from "@/components/ui/command"
   
   
-const page = () => {
+const Page = () => {
     const [isLoading, setLoading] = useState(true);
 
 //    pendiri tailwindcss "https://twitter.com/adamwathan"
@@ -83,4 +83,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

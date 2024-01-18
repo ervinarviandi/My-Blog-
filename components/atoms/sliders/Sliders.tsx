@@ -20,7 +20,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import Star from "@/components/atoms/slug/elements/star"
 
 
-export default function sliders() {
+export default function Sliders() {
   const swiperRef = useRef<SwiperType>();
 
   return (

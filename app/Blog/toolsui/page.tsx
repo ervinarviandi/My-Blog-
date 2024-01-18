@@ -18,7 +18,7 @@ import {
   } from "@/components/ui/command"
   
   
-const page = () => {
+const Page = () => {
     const [isLoading, setLoading] = useState(true);
 
 
@@ -81,4 +81,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

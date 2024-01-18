@@ -5,9 +5,10 @@ import ContentSlug from "@/app/Blog/tailwindcss/components/Content"
 import Navigation from '@/components/atoms/slug/Navigation'
 import { useState } from 'react'
 import Footer from '@/components/commons/Footer'
-  
-  
-const page = () => {
+
+
+
+const Page = () => {
     const [isLoading, setLoading] = useState(true);
 
 //    pendiri tailwindcss "https://twitter.com/adamwathan"
@@ -54,7 +55,6 @@ const page = () => {
                 <div className=' h-52 w-full bg-purple-300 p-2 '>
 
                 </div>
-
               </div>
             </div>
             </div>
@@ -66,4 +66,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
