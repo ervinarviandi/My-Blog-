@@ -8,7 +8,7 @@ export default function Content() {
     <div className=''>
         <h1 className='font-bold lg:text-2xl text-xl'>Deployment Website Ke Vercel</h1>
         <p className='lg:text-lg text-md mt-5'>
-        Pada umumnya, istilah "headless UI" merujuk pada komponen antarmuka pengguna (UI) yang dapat digunakan tanpa adanya tampilan atau antarmuka pengguna grafis yang sudah dibangun. Ini berarti komponen tersebut dirancang untuk memberikan fungsionalitas tertentu tanpa ketergantungan pada elemen-elemen visual atau tata letak tertentu.</p>
+        Pada umumnya, istilah headless UI merujuk pada komponen antarmuka pengguna (UI) yang dapat digunakan tanpa adanya tampilan atau antarmuka pengguna grafis yang sudah dibangun. Ini berarti komponen tersebut dirancang untuk memberikan fungsionalitas tertentu tanpa ketergantungan pada elemen-elemen visual atau tata letak tertentu.</p>
         <p className='lg:text-lg text-md mt-5'> Tidak main-main, pertumbuhan <Link href="https://tailwindcss.com/" className='text-tailwind'>TailwindCSS</Link>  cukup spektakuler.</p>
         <p className='lg:text-lg text-md mt-5'>Konsep yang diusung oleh TailwindCSS memang cukup spektakuler, yaitu utility first dimana kita tidak perlu meninggalkan halaman html/jsx  kita untuk bisa menuliskan css yang kita mau.</p>
 
