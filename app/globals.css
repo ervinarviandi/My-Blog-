@@ -81,7 +81,7 @@
   }
 
   .myHeader {
-    background: url(../app/assets/pc.jpg);
+    background: url(../app/assets/pc.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -111,28 +111,28 @@
   /* My Slider */
 
   .mySwiper  .image {
-    background: url(../app/assets/sliders/setup-desk.jpg);
+    background: url(../app/assets/sliders/setup-desk.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
   }
 
   .mySwiper .slider-2 {
-    background: url(../app/assets/sliders/ngoding\ 2.jpg);
+    background: url(../app/assets/sliders/ngoding\ 2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
   }
 
   .mySwiper .slider-3 {
-    background: url(../app/assets/sliders/photo-1535957998253-26ae1ef29506.jpeg);
+    background: url(../app/assets/sliders/photo-1535957998253-26ae1ef29506.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 
   .mySwiper .slider-4 {
-    background: url(../app/assets/sliders/photo-1579578304186-f0626704bbd4.jpg);
+    background: url(../app/assets/sliders/photo-1579578304186-f0626704bbd4.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;

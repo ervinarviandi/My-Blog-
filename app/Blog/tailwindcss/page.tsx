@@ -5,6 +5,17 @@ import ContentSlug from "@/app/Blog/tailwindcss/components/Content"
 import Navigation from '@/components/atoms/slug/Navigation'
 import { useState } from 'react'
 import Footer from '@/components/commons/Footer'
+import {
+  Command,
+  CommandDialog,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandSeparator,
+  CommandShortcut,
+} from "@/components/ui/command"
 
 
 
@@ -38,23 +49,32 @@ const Page = () => {
                 <ContentSlug/>
             </div>
             </div>
-            <div className='lg:w-3/12 lg:block hidden  border border-tailwind absolute right-0 top-52 '>
-              <div className='overflow-y-scroll myScroll h-72 bg-gray-500 '>
-                <div className=' h-52 w-full bg-gray-300 p-2 '>
-
-                </div>
-                <div className=' h-52 w-full bg-rose-300 p-2 '>
-
-                </div>
-                <div className=' h-52 w-full bg-purple-300 p-2 '>
-
-                </div>
-                <div className=' h-52 w-full bg-purple-300 p-2 '>
-
-                </div>
-                <div className=' h-52 w-full bg-purple-300 p-2 '>
-
-                </div>
+            <div className='lg:w-3/12 lg:block hidden  border  absolute right-0 top-52 '>
+              <div className='overflow-y-scroll myScroll h-72  '>
+             
+              <Command>
+                  <CommandInput placeholder="Type a command or search..." />
+                    <CommandList>
+                        <CommandEmpty>No results found.</CommandEmpty>
+                        <CommandGroup heading="Suggestions">
+                        <CommandItem>Calendar</CommandItem>
+                        <CommandItem>Search Emoji</CommandItem>
+                        <CommandItem>Calculator</CommandItem>
+                        </CommandGroup>
+                        <CommandSeparator />
+                        <CommandGroup heading="Settings">
+                        <CommandItem>Profile</CommandItem>
+                        <CommandItem>Billing</CommandItem>
+                        <CommandItem>Settings</CommandItem>
+                        <CommandItem>Profile</CommandItem>
+                        <CommandItem>Billing</CommandItem>
+                        <CommandItem>Settings</CommandItem>
+                        </CommandGroup>
+                    </CommandList>
+                    </Command>
+               
+             
+               
               </div>
             </div>
             </div>
