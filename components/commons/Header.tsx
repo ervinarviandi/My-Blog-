@@ -9,7 +9,7 @@ const Header = () => {
         <div className='lg:max-w-6xl mx-auto px-5'>
             <div className='container'>
             <h1 className='font-bold text-white text-4xl text-center pt-32'>Cerita Ervin</h1>
-            <p className='text-center text-gray-300  mt-5 lg:w-5/12 mx-auto'> 👋 welcome to my Blog, blog ini berisi tutorial, programming    </p>
+            <p className='text-center text-gray-300  mt-5 lg:w-5/12 mx-auto'> 👋 Blog ini saya buat untuk sharing tentang topik seputar programming 👩‍💻    </p>
             <p className='mt-5 text-gray-300 text-center mx-auto lg:w-5/12 p-2 bg-teal-600 rounded-md'>Ghibah Seputar Teknologi & Programming</p>
             </div>
        </div>

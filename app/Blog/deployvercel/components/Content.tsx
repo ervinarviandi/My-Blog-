@@ -7,10 +7,13 @@ export default function Content() {
     <>
     <div className=''>
         <h1 className='font-bold lg:text-2xl text-xl'>Deployment Website Ke Vercel</h1>
+        <p className='lg:text-lg text-md mt-5'>Pembahasan kali ini, saya akan membagikan sebuah cara gampang untuk hosting website atau aplikasi. sebenarnya banyak layanan penyedia hosting website gratis, contohnya netlify, heroku, github pages dan masih banyak lagi, tapi kali ini saya akan memberitahu kalian satu layanan hosting yang paling banyak di gunakan oleh para developer, yaitu <a href="https://vercel.com/" className='text-blue-500 hover:underline'>vercel.com</a>.banyak keunggulan yang diberikan oleh vercel, salah satunya vercel analitycs, kalian bisa install vercel analitycs di dalam project kalian, tinggal kalian baca dokumentasi di website resminya vercel.</p>
+
+        <p className='lg:text-lg text-md mt-5'></p>
         <p className='lg:text-lg text-md mt-5'>
-        Pada umumnya, istilah headless UI merujuk pada komponen antarmuka pengguna (UI) yang dapat digunakan tanpa adanya tampilan atau antarmuka pengguna grafis yang sudah dibangun. Ini berarti komponen tersebut dirancang untuk memberikan fungsionalitas tertentu tanpa ketergantungan pada elemen-elemen visual atau tata letak tertentu.</p>
-        <p className='lg:text-lg text-md mt-5'> Tidak main-main, pertumbuhan <Link href="https://tailwindcss.com/" className='text-tailwind'>TailwindCSS</Link>  cukup spektakuler.</p>
-        <p className='lg:text-lg text-md mt-5'>Konsep yang diusung oleh TailwindCSS memang cukup spektakuler, yaitu utility first dimana kita tidak perlu meninggalkan halaman html/jsx  kita untuk bisa menuliskan css yang kita mau.</p>
+        Vercel adalah platform cloud yang memungkinkan pengembang untuk dengan mudah melakukan deployment dan hosting aplikasi web, baik itu situs web statis maupun aplikasi web dinamis. Vercel mendukung berbagai bahasa pemrograman seperti JavaScript, Python, Go, dan sebagainya. Platform ini terkenal karena kecepatan deployment yang tinggi, dukungan untuk Continuous Integration (CI), dan integrasi yang baik dengan berbagai alat pengembangan.</p>
+        <p className='lg:text-lg text-md mt-5'> Berikut adalah langkah-langkah untuk melakukan deployment projek ke Vercel:</p>
+        <p className='lg:text-lg text-md mt-5'>1. membuat akun vercel</p>
 
         <p className='lg:text-lg text-md mt-5'>Mungkin sedikit mirip kali ya dengan CSS-in-JS atau styled component yang mana tidak perlu keluar dari file jsx/html kita untuk melakukan styling pada komponen kita.</p>
 

@@ -24,7 +24,7 @@ export default function Cards() {
         </div>
         <div className='lg:w-4/12'>
           <div className='relative  overflow-hidden  rounded-lg shadow-md hover:scale-105 transition duration-700 ease-in-out group lg:mt-0 md:mt-0 mt-5'>
-            <Link href="">
+            <Link href="/Blog/deployvercel">
               <div>
               <Image src={Logo} width={35} height={35} alt='profile' 
           className={`
@@ -51,7 +51,8 @@ export default function Cards() {
               <div className='p-4'>
               <span className="text-tailwind text-sm">Senin, 15 jan 2024</span>
               <h1 className='font-semibold capitalize  text-base sm:text-lg mt-5'>
-              <span className="bg-gradient-to-r from-tailwind to-purple-400 bg-[length:0px_6px] group-hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 ">Step by step belajar front-end untuk pemula</span>
+              <span className="bg-gradient-to-r from-tailwind to-purple-400 bg-[length:0px_6px] group-hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 ">Cara Deploy Project Ke Vercel</span>
+              <p className='lg:text-md text-sm mt-3 dark:text-gray-400 text-gray-600'>Vercel adalah platform cloud yang memungkinkan pengembang untuk dengan mudah melakukan deployment...</p>
               </h1>
               </div>
             </Link>

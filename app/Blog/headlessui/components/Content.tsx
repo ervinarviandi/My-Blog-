@@ -1,14 +1,22 @@
 import React from 'react'
 import Link from "next/link"
-export default function Content() {
+import Image from "next/image"
+import Code from "@/public/assets/ui kit/codeblocks1.png"
 
+
+
+export default function Content(props:any) {
 
   return (
     <>
+
     <div className=''>
         <h1 className='font-bold lg:text-2xl text-xl'>Introduction</h1>
-        <p className='lg:text-lg text-md mt-5'>Tailwind CSS adalah framework CSS yang dibuat oleh  <Link href="https://twitter.com/adamwathan" className='text-tailwind'>Adam Wathan</Link>, Jonathan Reinink, David Hemphill, dan Steve Schoger. Framework ini pertama kali dirilis pada November 2017. Tailwind CSS dirancang untuk memudahkan pengembangan antarmuka pengguna (UI) dengan menyediakan sejumlah besar kelas utilitas yang dapat digunakan langsung di HTML untuk membangun tata letak dan desain.</p>
+        <p className='lg:text-lg text-md mt-5'>
+        Pada umumnya, istilah "headless UI" merujuk pada komponen antarmuka pengguna (UI) yang dapat digunakan tanpa adanya tampilan atau antarmuka pengguna grafis yang sudah dibangun. Ini berarti komponen tersebut dirancang untuk memberikan fungsionalitas tertentu tanpa ketergantungan pada elemen-elemen visual atau tata letak tertentu.</p>
         <p className='lg:text-lg text-md mt-5'> Tidak main-main, pertumbuhan <Link href="https://tailwindcss.com/" className='text-tailwind'>TailwindCSS</Link>  cukup spektakuler.</p>
+
+       <Image src={Code} width={400} height={400} alt="codeblocks" />
         <p className='lg:text-lg text-md mt-5'>Konsep yang diusung oleh TailwindCSS memang cukup spektakuler, yaitu utility first dimana kita tidak perlu meninggalkan halaman html/jsx  kita untuk bisa menuliskan css yang kita mau.</p>
 
         <p className='lg:text-lg text-md mt-5'>Mungkin sedikit mirip kali ya dengan CSS-in-JS atau styled component yang mana tidak perlu keluar dari file jsx/html kita untuk melakukan styling pada komponen kita.</p>

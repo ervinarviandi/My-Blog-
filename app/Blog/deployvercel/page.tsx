@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Image from "next/image"
-import ContentSlug from "@/app/Blog/headlessui/components/Content"
+import ContentSlug from "@/app/Blog/deployvercel/components/Content"
 import Navigation from '@/components/atoms/slug/Navigation'
 import { useState } from 'react'
 import Footer from '@/components/commons/Footer'
@@ -37,7 +37,7 @@ const Page = () => {
                   onLoad={() => setLoading(false)} priority={true}/>
             </div>
             <div className='px-2'>
-            <h1 className='lg:w-7/12 mx-auto font-bold lg:text-4xl text-2xl text-center mt-5'>Tutorial Hosting Projek Website Dengan Vercel    </h1>
+            <h1 className='lg:w-7/12 mx-auto font-bold lg:text-4xl text-2xl text-center mt-5'>Cara Deploy Project Ke Vercel    </h1>
             <hr className=' border-dashed  dark:border-[#525252] border-1 border-white-100 my-5 ' />
             <div className='flex justify-between relative  gap-5'>
               <div className='lg:w-9/12'>

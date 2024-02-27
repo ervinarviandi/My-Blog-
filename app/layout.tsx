@@ -3,7 +3,7 @@ import { Sora } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '@/components/commons/theme-provider'
 import NextTopLoader from 'nextjs-toploader'
-const sora = Sora({ subsets: ['latin'] })
+const sora = Sora({ subsets: ['latin'], weight: ['200', '300', '400', '500', '600', '700'], })
 
 export const metadata: Metadata = {
   title: 'Blog I Ervin Arviandi',

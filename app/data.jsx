@@ -29,39 +29,16 @@ export default [
         tags1: "astro",
     
     },
+   
     {   id: "4",
         link : "/Blog/headlessui",
         profile : "/assets/profile/ervinarviandi.jpg",
-        img : "/assets/thumbnails/Ngoding.webp",
-        title : "Implementasi headless ui dalam project react",
-        description : "implementasi shadcn ui di dalam project "
+        img : "/assets/thumbnails/3.webp",
+        title : "implementasi headless ui di dalam project",
+        description : "Gambar adalah komponen terberat dari sebuah situs web. Gambar mencegah situs web memuat lebih cepat... ",
+        date: "Sabtu, 13 jan 2024",
+        tags1: "astro",
+    
     },
-    {   id: "5",
-        link : "/Blog/deployvercel",
-        profile : "/assets/profile/ervinarviandi.jpg",
-        img : "/assets/thumbnails/Ngoding.webp",
-        title : "Tutorial Hosting Projek Website Dengan Vercel",
-        description : "implementasi shadcn ui di dalam project"
-    },
-    {   id: "6",
-        link : "https://ervinarviandi.vercel.app/",
-        profile : "/assets/profile/ervinarviandi.jpg",
-        img : "/assets/thumbnails/Ngoding.webp",
-        title : "instal shadcn ui di next js",
-        description : "implementasi shadcn ui di dalam project "
-    },
-    {   id: "7",
-        link : "https://ervinarviandi.vercel.app/",
-        profile : "/assets/profile/ervinarviandi.jpg",
-        img : "/assets/thumbnails/Ngoding.webp",
-        title : "isntal shadcn ui di ext js",
-        description : "implementasi shadcn ui di dalam project "
-    },
-    {   id: "8",
-        link : "https://ervinarviandi.vercel.app/",
-        profile : "/assets/profile/ervinarviandi.jpg",
-        img : "/assets/thumbnails/Ngoding.webp",
-        title : "isntal shadcn ui di ext js",
-        description : "implementasi shadcn ui di dalam project "
-    },
+   
 ]
